@@ -51,10 +51,10 @@ main {
   margin-top: 1em;
 }
 section {
-  margin-bottom: 1em;
+  margin-bottom: 2em;
 }
 h2 {
-  margin: 1em;
+  margin-bottom: 0.2em;
   font-weight: 900;
   text-align: center;
 }
@@ -136,7 +136,7 @@ ul {
   list-style: none;
 }
 ul li::before {
-  content: "→";
+  content: "→  ";
   color: #C0A062;
   font-weight: bold;
   display: inline-block;
