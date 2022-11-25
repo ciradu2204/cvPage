@@ -148,25 +148,25 @@ hr {
   color: 1e2128;
 }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px;
-}
+@media screen and (max-width: 992px) {
+   
+  #header img{
+    display: none;
+  }
+  #education > div {
+   flex-direction: column;
+   align-items: center;
+  }
 
-footer h4::before {
-  content: "";
-  background-color: rgb(192, 160, 98);
-  display: inline-block;
-  margin-right: 2px;
-  width: 4em;
-  height: 0.2em;
-}
-footer a {
-  padding: 5px;
-}
-footer img {
-  width: 20px;
-  height: 20px;
+  #workExperiences > div{
+    flex-direction: column;
+    align-items: center;
+  }
+  #leadershipAwards > div{
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+  }
+  #languagesFrameworks > div{
+    flex-direction: column;
+  }
 }
